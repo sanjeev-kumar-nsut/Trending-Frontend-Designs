@@ -1,0 +1,62 @@
+.temppage{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+.t1{
+    height: 100%;
+    width:50%;
+    margin-top: 10%;
+}
+.home{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Signika', sans-serif;
+    
+}
+.home h1 , .design h1 , .reviewspage h1, .contactpage h1{
+    font-size:50px;
+    background: linear-gradient(90deg,  #92FE9D 30%,#00C9FF 80%,#007BFF 100%);
+    background: linear-gradient(90deg,  #f553ed 30%,#00C9FF 50%,#001aff 100%);
+  font-size: 80px;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradient 5s linear infinite alternate;
+  font-family: 'Playball', cursive;
+  font-family: 'Monoton', cursive;
+  font-weight: 100;
+  text-align: center;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+.textcenter{
+    text-align: center;
+}
+
+
+
+
+/* mfd starts here */
+
+.container1{
+    /*background-color: #239598;*/
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    height: 100%;
+    width: 50%;
+    margin-top:10%;
+}

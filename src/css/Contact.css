@@ -1,0 +1,186 @@
+/* .contactpage{
+    height: 100vh;
+      width:100%;
+      margin-top:50vh;
+      
+    margin-bottom: 50vh;
+  }
+  .contactpage .row1{
+    height:20vh;
+    width:100%;
+    margin-bottom: 20vh;
+  }
+  .contactpage .row1 h1{
+    width:100%;
+    text-align: center;
+  }
+  .contactpage .row2{
+    margin-top:-0.2rem;
+    height:80vh;
+    width:100%;
+  }
+  .contactpage .col{
+    height:100%;
+    width:60%;
+  }
+  .contacttext {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 10rem;
+  }
+  .contacttext h2{
+    font-size: 2rem;
+    font-family: 'Bangers', cursive;
+  }
+  .bubble1{
+    z-index: -1;
+    height:200px;
+    width:200px;
+    position: absolute;
+    top: 8px;
+    left: -50px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 50%;
+  }
+  .bubble2{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    bottom: 18px;
+    right: 0px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  }
+  .contactglass{
+    height:60%;
+    width:100%;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    background: rgba(255,255,255, 0.2);
+    z-index: 4;
+    backdrop-filter: blur(60px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    border-radius: 4rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+  }
+  .contactglass h2{
+    font-family: 'Inter', sans-serif;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .contactpage{
+    margin-top: 18rem;
+    height:120vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  .contactpage .row1{
+    height:20vh;
+    width: 100%;
+  }
+  .contactpage .row2{
+    height:80vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactpage .row2 .bubble1{
+    z-index: -1;
+    height:200px;
+    width:500px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 50%;
+  }
+  .contactpage .row2 .bubble2{
+    height:250px;
+    width:1000px;
+    border-radius: 50%;
+    z-index: -2;
+    position: relative;
+    bottom: -150px;
+    right: 0px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+
+  }
+  .contactcard{
+    width:506px;
+    height: 400px;
+    position: relative;
+    background: radial-gradient(
+      140% 140% at 0% 0%,
+      rgba(255,255,255,0.4) 0%,
+      rgba(255,255,255,0) 100% 
+    );
+    border-top: 1px solid #eeeded70;
+    border-left: 1px solid #eeeded70;
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+    z-index: 1;
+    top:-200px;
+    
+    
+    background: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(60px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+   
+  }
+  .contactcard h2{
+
+    color: black;
+    font-size:28px;
+    font-family: "Mulish",sans-serif;
+    position: absolute;
+    
+  }
+  .contactcard .row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+  .contacticon{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .text-center{
+    width: 100%;
+    text-align: center;
+  }
+  .contactpage .hover-1{
+    color: black;
+    text-decoration: none;
+  }
