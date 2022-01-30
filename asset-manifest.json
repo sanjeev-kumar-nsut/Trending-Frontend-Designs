@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Trending-Frontend-Designs/static/css/main.30ebdc4e.css",
+    "main.js": "/Trending-Frontend-Designs/static/js/main.eae077b0.js",
+    "static/media/rocket_demo.riv": "/Trending-Frontend-Designs/static/media/rocket_demo.2a29ced422b6010c9535.riv",
+    "index.html": "/Trending-Frontend-Designs/index.html",
+    "main.30ebdc4e.css.map": "/Trending-Frontend-Designs/static/css/main.30ebdc4e.css.map",
+    "main.eae077b0.js.map": "/Trending-Frontend-Designs/static/js/main.eae077b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30ebdc4e.css",
+    "static/js/main.eae077b0.js"
+  ]
+}
