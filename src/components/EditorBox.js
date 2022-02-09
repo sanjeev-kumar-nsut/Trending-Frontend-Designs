@@ -29,7 +29,7 @@ function EditorBox(props) {
       <div className='editorbox'  >
          <div className='title ' onClick={() => props.expandDesign(props.title,"open")}>
         <h3>{props.title}</h3>
-        <img className='arrowicon' alt='down arrow' src='https://cdn-icons.flaticon.com/png/512/2985/premium/2985151.png?token=exp=1643512381~hmac=aef687e6365ca8edcd57728b8b758256'/>
+        <img className='arrowicon' alt='down arrow' src='./downarrow.png'/>
       </div>
       <div className="pane top-pane">
         <Editor
@@ -74,7 +74,7 @@ function EditorBox(props) {
     <div className='editorbox' >
       <div className='title'  onClick={() => props.expandDesign(props.title,"close")}>
       <h3 >{props.title}</h3>
-      <img className='arrowicon' alt="righticon" src='https://cdn-icons.flaticon.com/png/512/1549/premium/1549454.png?token=exp=1643512330~hmac=600ed795ef7beb122b8017b96bbb1588'/>
+      <img className='arrowicon' alt="righticon" src='https://cdn-icons-png.flaticon.com/512/130/130885.png'/>
       </div>
      
     </div>

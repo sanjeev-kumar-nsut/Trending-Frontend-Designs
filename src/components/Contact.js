@@ -26,21 +26,21 @@ class Contact extends React.Component {
               
               <div className='row3'>
                 <h2>
-                  <img alt='phone icon' className='contacticon' src='https://cdn-icons.flaticon.com/png/512/4213/premium/4213179.png?token=exp=1643469144~hmac=88283ed22a153e9ffaae81e127016f5d'/>
+                  <img alt='phone icon' className='contacticon' src='./phone.png'/>
                   <a className="hover-1" href="#contact">8920654398</a>
                 </h2>
               </div>
 
               <div className='row3'>
                 <h2>
-                  <img alt='github icon' className='contacticon' src='https://cdn-icons.flaticon.com/png/512/2175/premium/2175377.png?token=exp=1643469223~hmac=9f6164f47aba56f9ea1e2d316f2499ea'/>
+                  <img alt='github icon' className='contacticon' src='./github.png'/>
                   <a className="hover-1" href='https://github.com/sanjeev-kumar-nsut'>sanjeev-kumar-nsut</a>
                 </h2>
               </div>
 
               <div className='row3'>
                 <h2>
-                  <img alt='resume icon' className='contacticon' src='https://cdn-icons.flaticon.com/png/512/2195/premium/2195529.png?token=exp=1643469303~hmac=b154c75acbb36f1d310d0e8d92419ce9'/>
+                  <img alt='resume icon' className='contacticon' src='./resume.png'/>
                   <a className="hover-1" href='https://drive.google.com/file/d/1-JQMHJcHK6fjM0Qc7llKKqZSDIp0HdAd/view?usp=sharing'>Resume</a>
                 </h2>
               </div>
